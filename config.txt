@@ -1,0 +1,68 @@
+[MISC]
+Testselfdebug = no
+TestCreateToolhelp32Snapshot = no
+Patch_DbgUiRemoteBreakin = no
+Patch_DbgBreakPoint = no
+HideThread = no
+TestSwitch = no
+SuspendDebuggerThread = no
+TestBlockInput = no
+
+[ASSEMBLY]
+TestInt3 = no
+TestInt2D = no
+TestDebugBreak = no
+TestICE = no
+TestTrapFlag = no
+TestPopfTrap = no
+TestInstrPref = no
+TestInstructionCounting = no
+TestSelector = no
+
+[EXCEPTIONS]
+TestUnhExF = no
+TestRaiseEx = no
+TestControlFlow = no
+TestCtrlEvent = no
+
+[FLAGS]
+TestIsDebuggerPresent = yes
+TestCheckRemoteDebuggerPresent = no
+TestProcessDebugPort = no
+TestProcessDebugFlags = no
+TestSystemKernelDebuggerInformation = no
+TestRtlQuery = no
+TestNtGlobalFlag = no
+TestHeapCheck = no
+
+[MEMORY]
+TestSpecByte = no
+TestMemoryBreak = no
+TestHardBreak = no
+TestFuncPatch = no
+TestHashsum = yes
+
+[DESCRIPTORS]
+TestFindWindow = no
+TestCreateFile = no
+TestCloseHandle = no
+TestLoadLibrary = no
+TestCsrGetProcessId = no
+TestQueryObject = no
+
+[TIMING]
+base_measure_time = no
+timer_timeGetTime = no
+timer_timegetsystime = no
+timer_timegetsystimeasfile = no
+timer_QueryPerfomanceCounter = no
+timer_gettickcount = no
+timer_gettick64count = no
+timer_getlocaltime = no
+timer_rdtsc = no
+timer_partstiming = no
+
+[AUX]
+hash = 23674
+tls = false
+threads = 10
